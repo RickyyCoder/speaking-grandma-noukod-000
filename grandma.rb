@@ -16,9 +16,9 @@ def speak_to_grandma(myPhrase)
   # you still have to use .upcase() method to reinforce the condition
   if myPhrase.upcase() == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  end
-  
-  elsif myPhrase == "Hi Nana, how are you?"
+      elsif myPhrase == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
   end
+  
+
 end
