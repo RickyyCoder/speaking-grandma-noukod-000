@@ -14,6 +14,6 @@
 
 def speak_to_grandma(myPhrase)
   if myPhrase == "I LOVE YOU GRANDMA!".upcase()
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   end
 end
