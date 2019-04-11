@@ -22,6 +22,8 @@ def speak_to_grandma(myPhrase)
         return "HUH?! SPEAK UP, SONNY!"
       elsif myPhrase.upcase() == "WHAT DID YOU EAT TODAY?"
         return "NO, NOT SINCE 1938!"
+      elsif myPhrase.upcase() == "WHAT?"
+        return "NO, NOT SINCE 1938!"
   end
   
 end
